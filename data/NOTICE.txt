@@ -1,0 +1,3 @@
+The data in this folder were exported from MHR - Momentum Human Rig
+https://github.com/facebookresearch/MHR
+and is released under the Apache 2.0 license included here.
