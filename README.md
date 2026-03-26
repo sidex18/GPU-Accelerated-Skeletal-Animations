@@ -46,8 +46,3 @@ src2 contains
   lod3.fbx              — Original full-body rig (reference, e.g. for Blender)
 ```
 
-## What You Need to Implement
-
-Please see the [A3 spec](./A3_spec.pdf) for detailed instructions, figures, and logic on how to implement each section of the code!
-
-Recommended order: FK kernels -> Skinning kernels -> IK solver.
