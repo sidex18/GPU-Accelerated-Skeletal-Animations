@@ -7,6 +7,8 @@
 
 GPU-accelerated skeletal animation with Forward Kinematics (FK), Inverse Kinematics (IK), and Linear Blend Skinning (LBS), built on [NVIDIA Warp](https://github.com/NVIDIA/warp) with a [Polyscope](https://polyscope.run/) UI. Keyframe animation system is present in src2
 
+IK is implmented for the hands and legs at the moment 
+
 Entry point: `src/main.py`
 
 ## Setup
