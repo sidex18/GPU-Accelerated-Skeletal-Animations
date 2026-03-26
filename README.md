@@ -1,19 +1,11 @@
-# Assignment 3: GPU-Accelerated Skeletal Animation
+# GPU-Accelerated Skeletal Animation and Keyframe Animation system  - CPSC 426 Assignment UBC
 
-**Name:** (TODO)
 
-**Student Number:** (TODO)
-
-**CWL:** (TODO)
-
-**Collaborators:** (TODO, or N/A)
-
-**Resources/AI:** (TODO, or N/A)
 
 
 ## Overview
 
-GPU-accelerated skeletal animation with Forward Kinematics (FK), Inverse Kinematics (IK), and Linear Blend Skinning (LBS), built on [NVIDIA Warp](https://github.com/NVIDIA/warp) with a [Polyscope](https://polyscope.run/) UI.
+GPU-accelerated skeletal animation with Forward Kinematics (FK), Inverse Kinematics (IK), and Linear Blend Skinning (LBS), built on [NVIDIA Warp](https://github.com/NVIDIA/warp) with a [Polyscope](https://polyscope.run/) UI. Keyframe animation system is present in src2
 
 Entry point: `src/main.py`
 
@@ -23,12 +15,6 @@ Entry point: `src/main.py`
 pip install warp-lang polyscope scipy numpy
 ```
 
-(or from the same env in A2)
-
-```bash
-conda activate cpsc426
-conda install scipy -y
-```
 
 ## Running
 
@@ -54,6 +40,9 @@ data/
   skeleton_bind.json    — Bone hierarchy, bind-pose local matrices
   base_mesh.obj         — Character mesh (Z-up meters, converted to Y-up cm on load)
   vertex_weights.npz    — Per-bone vertex weights
+
+
+src2 contains 
   lod3.fbx              — Original full-body rig (reference, e.g. for Blender)
 ```
 
