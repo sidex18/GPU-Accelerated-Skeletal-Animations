@@ -1,4 +1,4 @@
-# GPU-Accelerated Skeletal Animation and Keyframe Animation system  - CPSC 426 Assignment UBC
+# GPU-Accelerated Skeletal Animation and Keyframe Animation system
 
 
 
